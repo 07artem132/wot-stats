@@ -1,0 +1,70 @@
+@charset "utf-8";
+body { /* общий класс */
+	background-color: rgba(0, 0, 0, 0.27); /*заливка фона (полу прозрачная)*/
+
+}
+input.submit { /* стиль кнопки "отправить" */
+	float: right; /* выровнять по правому краю*/
+	margin-left: 106px; /*отступ с лева*/
+	margin-top: 15px;/* margin-right: 24px; */
+}
+input.div { /* стили поля : input */
+	margin-left: 5px; /*отступ с лева,для выравнивания полей input*/
+	width: 153px; /*ширина полей для ввода данных*/
+	border-radius: 5px;/*округленные края*/
+	-moz-border-radius: 5px;/*округленные края*/
+	-khtml-border-radius: 5px;/*округленные края*/
+	-webkit-border-radius: 5px;/*округленные края*/
+}
+#text_div { /*Стили надпесей над полем input*/
+	display: inline-block; /* отображение в виде линии блока*/
+	width: 132px; /* ширина текстового блока*/
+	padding-bottom: 7px; /* отступ с верху*/
+	margin-left: 9px; /* отступ с лева*/
+}
+#form_div { /*Класс div обьекта в котором содержиться форма */
+    	font-family: cursive; /*название шрифта*/
+	width: 454px; /*шырина*/
+	height: 455px; /*высота*/
+	border: solid 1px black; /*цвет,ширина*/
+	position: absolute;/*позиция обсолютная*/
+	top: 30%;/*отступ с верху*/
+	left: 46%;/*отступ с лева*/
+	background-color: #FFFFFF; /*настройки фона*/
+	margin: -125px 0 0 -125px; /*отступ*/
+	padding-top: 0px;/*отступ c верху*/
+	-moz-border-radius: 8px; /*округленные края*/
+	-khtml-border-radius: 8px; /*округленные края*/
+	-webkit-border-radius: 8px; /*округленные края*/
+	border-radius: 8px; /*округленные края*/
+	background-image: url(/img/bg_form.png); /* фон самой формы*/
+	background-repeat: no-repeat; /* что бы не повторялось*/
+}
+form { /* Класс самой формы*/
+	width: 100%; /*форма по размеру блока ширина*/
+	position: absolute; /*абсолютное позиционирование блока */
+	top: 43%; /*отступ с верху*/
+	color: rgb(255, 255, 255); /*цвет текста*/
+}
+#div_line_pole_left { /* выравнивание "поля" для формы по левой стороне*/
+	padding-top: 7.5px; /*отступ строки ввода данных с верху*/
+	padding-bottom: 7.5px;/*отступ строки ввода данных с низуу*/
+	margin-left: 30px; /* отступ с левого края макета (в процентах для резинового макета)*/
+	float: left; /*выравнивание по левому краю*/
+}
+#div_line_pole_right { /* выравнивание "поля" для формы по правой стороне*/
+	padding-top: 7.5px; /*отступ строки ввода данных с верху*/
+	padding-bottom: 7.5px;/*отступ строки ввода данных с низуу*/
+	padding-right: 10%; /*отступ с права*/
+	float: right; /*выропнять по правому краю*/
+}
+#div_form_title { /*заголовок формы  */
+	color: rgba(255, 255, 255, 0.88);
+	position: absolute; /* абсолютное позиционирование*/
+	left: 175px; /* позиция слева*/
+	padding-top: 0px;/*отступ с верху */
+	font-size: 17px; /* размер шрифта*/
+}
+#div_line_conteiner { /* контейнер для строки "полей",все поля заключены в контейнеры по 2 поля (горизонтальные контейнеры) */
+height: 65px; /*высота*/
+ }
